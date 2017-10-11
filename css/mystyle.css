@@ -1,0 +1,110 @@
+
+
+/* SHADOW */
+/*.backheader {
+  background-color: black;
+  padding: 1px;
+  left: 0px;
+  right: 0px;
+  width: 70.2%;
+  height: 100%;
+  margin: auto;
+  position: fixed;
+  z-index: -1;
+}*/
+
+/* left and right edge border for all */
+.tablecontainer, .topnav, .footer, .header {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+/* Header style */
+.header {
+  background-color: #ffa64d;
+  padding: 10px;
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+  border-top: 1px solid black;
+
+}
+
+/* Nav style */
+.nav {
+  padding: 0px;
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 1px dotted grey;
+  border-bottom: 1px dotted grey;
+}
+
+/* Header style */
+.footer {
+  background-color: #ffa64d;
+  padding: 1px;
+  text-align: center;
+  max-width: 70%;
+  margin: auto;
+  border-bottom: 1px solid black;
+  border-top: 1.5px dotted grey;
+}
+
+
+/* Style the top navigation bar*/
+.topnav{
+  overflow: hidden;
+  background-color: #ffc180;
+  font-size: 20px;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+  float:left;
+  /*display: block;*/
+  color: #331a00;
+  text-align: center;
+  padding: 10px 15px;/* top and bottom and righ/left */
+  text-decoration: none;
+
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ff9c33;
+  color: white;
+}
+
+.tablecontainer {
+    position: relative;
+    height: auto;
+    padding: 0px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+
+
+/* Columns lef and right in tablecontainer */
+#leftmain, #rightmain {
+    display: table-cell;
+}
+
+#leftmain {
+    width: 50%;
+    background-color: #fff3e6;
+    color: black;
+}
+
+#rightmain {
+  width: 20%;
+    background: #ffdab3;
+    color: black;
+  }
+
+/* 3 information columns */
