@@ -108,7 +108,7 @@
       background-color: yellow;
     }
 
-    #container {
+    #tablecontainer {
         height: 100%;
         padding: 0px;
         text-align: center;
@@ -148,25 +148,48 @@
   <h1 style="color: white">My website</h1>
 </div>
 <div class="nav topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
+  <a href="#">Link1</a>
+  <a href="#">Link2</a>
+  <a href="#">Link3</a>
+  <a href="#">Link4</a>
 </div>
 
 
-<div id="container">
-    <div id="left"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Aliquam adipiscing massa lacus.</p>
+<div id="tablecontainer">
+    <div id="left">
+
+      <div class="container" style="width:100%; text-align: left;">
+        <h2>Witam na mojej stronie</h2>
+        <p>Kliknij na przycisk poniżej aby wyświetlić informację.</p>
+        <button type="button" class="btn btn-info" style="color: black; background-color: #ffa64d;"
+          data-toggle="collapse" data-target="#demo">Informacja</button>
+        <div id="demo" class="collapse">
+          <br />
+          <code>Hello World!</code><br />
+          <code>My name is Tomasz!</code><br />
+          <code>Hello Bootstrap!</code><br />
+          <code>Welcome and enjoy!</code><br />
+
+          <p>
+            <img src="images/bootstrap.png" />
+          </p>
+
+        </div>
+      </div>
+
     </div>
     <div id="right"><p>Proin nec enim vel orci pulvinar sollicitudin. Ut semper
       quam non felis bibendum sit amet dignissim lorem mattis. Suspendisse id posuere magna.</p>
-      <p>Maecenas lorem tellus, pellentesque et mattis ac, euismod sed felis. Maecenas fermentum bibendum mattis. Vivamus id vulputate eros. Quisque venenatis commodo augue nec aliquam. In euismod lorem non enim viverra pretium.</p>
+      <p>Maecenas lorem tellus, pellentesque et mattis ac, euismod sed felis. Maecenas fermentum bibendum mattis. Vivamus id vulputate eros.
+        Quisque venenatis commodo augue nec aliquam. In euismod lorem non enim viverra pretium.</p>
 </div>
 </div>
 <div class="footer" style="color: white;">
   <h6>tomaszparfieniuk</h6>
 </div>
+
+
+
 
 </body>
 </html>
