@@ -1,28 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>My Bootstrap try page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- STYLESHEET INFORMATION: If some properties have been defined for the same selector (element)
-  in different style sheets, the value from the last read style sheet will be used.
-  Inline style (inside a specific HTML element) has the highest priority, which means that it will override
-  a style defined inside the <head> tag, or in an external style sheet, or a browser default value.
-  check: https://www.w3schools.com/css/css_howto.asp -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
+  in different style sheets, the value from the last read style sheet will be used. -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <style>
+
+  .anchor {
+      background-color: #000;
+      position: relative;
+      width: 10px;
+      margin-left: 10%;
+      height: 500px;
+  }
+  .circle {
+      position: absolute;
+      top: 1px;
+      border-radius: 100%;
+      background-color: #000;
+      width: 200px;
+      height: 200px;
+      left: -100px;
+  }
 
 
   </style>
 
 </head>
 <body>
-
+  <div class="anchor" >
+      <div class="circle" >
+      </div>
+  </div>
 
 </body>
 </html>
